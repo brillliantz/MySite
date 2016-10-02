@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
 
-THEME = './theme/pelican-clean-blog/'
+# THEME = './theme/pelican-clean-blog/'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -34,3 +34,11 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+#---------------------------------------------------------------------
+# ipynb plugin
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATH = './plugins'
+PLUGINS = ['ipynb.markup', 'render_math']
+
