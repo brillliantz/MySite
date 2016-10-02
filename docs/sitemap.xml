@@ -4,126 +4,126 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>./</loc>
-<lastmod>2016-10-02T14:55:33-00:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/</loc>
+<lastmod>2016-10-02T15:34:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./archives.html</loc>
-<lastmod>2016-10-02T14:55:33-00:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/archives.html</loc>
+<lastmod>2016-10-02T15:34:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tags.html</loc>
-<lastmod>2016-10-02T14:55:33-00:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/tags.html</loc>
+<lastmod>2016-10-02T15:34:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./categories.html</loc>
-<lastmod>2016-10-02T14:55:33-00:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/categories.html</loc>
+<lastmod>2016-10-02T15:34:59-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./feature-tests.html</loc>
+<loc>https://brillliantz.github.io/MySite/feature-tests.html</loc>
 <lastmod>2016-10-02T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>./social_practice.html</loc>
+<loc>https://brillliantz.github.io/MySite/social_practice.html</loc>
 <lastmod>2016-08-20T13:00:05+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>./price-indicator-research.html</loc>
+<loc>https://brillliantz.github.io/MySite/price-indicator-research.html</loc>
 <lastmod>2016-08-05T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>./about-me.html</loc>
+<loc>https://brillliantz.github.io/MySite/about-me.html</loc>
 <lastmod>1970-01-01T10:01:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>./category/about-me.html</loc>
+<loc>https://brillliantz.github.io/MySite/category/about-me.html</loc>
 <lastmod>1970-01-01T10:01:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/private.html</loc>
+<loc>https://brillliantz.github.io/MySite/category/private.html</loc>
 <lastmod>2016-08-20T13:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/quanttrading.html</loc>
+<loc>https://brillliantz.github.io/MySite/category/quanttrading.html</loc>
 <lastmod>2016-08-05T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./category/test.html</loc>
+<loc>https://brillliantz.github.io/MySite/category/test.html</loc>
 <lastmod>2016-10-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/research.html</loc>
+<loc>https://brillliantz.github.io/MySite/tag/research.html</loc>
 <lastmod>2016-08-05T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/quant.html</loc>
+<loc>https://brillliantz.github.io/MySite/tag/quant.html</loc>
 <lastmod>2016-08-05T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/propaganda.html</loc>
+<loc>https://brillliantz.github.io/MySite/tag/propaganda.html</loc>
 <lastmod>2016-08-20T13:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/ipynb.html</loc>
+<loc>https://brillliantz.github.io/MySite/tag/ipynb.html</loc>
 <lastmod>2016-08-05T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/bn-liu.html</loc>
+<loc>https://brillliantz.github.io/MySite/author/bn-liu.html</loc>
 <lastmod>2016-10-02T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./author/bnliu.html</loc>
+<loc>https://brillliantz.github.io/MySite/author/bnliu.html</loc>
 <lastmod>2016-08-20T13:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
