@@ -39,6 +39,19 @@ DEFAULT_PAGINATION = 10
 # ipynb plugin
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup', 'render_math']
+PLUGIN_PATH = './pelican-plugins/'
+PLUGINS = ['ipynb.markup', 'render_math', 'sitemap']
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.7,
+        'indexes': 0.5,
+        'pages': 0.3,
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly',
+    }
+}
 
