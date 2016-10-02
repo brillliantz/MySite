@@ -1,7 +1,7 @@
-Title: wtffffffffffffffff
+Title: Feature tests
 Date: 2016-10-02 12:00:00
-Category: cate2
-Summary: alkjldkfjoasdfoiasufoiuiajdfojasiodfjasdfkljjajdlf
+Category: test
+Summary: Any tests on new blog features will be conducted in this post
 
 
 # this new post

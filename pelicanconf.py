@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
 
-# THEME = './theme/pelican-clean-blog/'
+THEME = './theme/xycoding-gum/'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -22,12 +22,12 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('QuantStart', 'http://www.quantstart.com'),
+         ('Quantopian', 'http://www.quantopian.com/'),
+         )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('LinkedIn', 'http://www.linkedin.com/in/bingnliu/en'),
           ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
@@ -40,7 +40,8 @@ DEFAULT_PAGINATION = 10
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './pelican-plugins/'
-PLUGINS = ['ipynb.markup', 'render_math', 'sitemap']
+PLUGINS = ['ipynb.markup', 'render_math', 'sitemap', 'random_article']
+# sitemap plugin options:
 SITEMAP = {
     'format': 'xml',
     'priorities': {
@@ -54,4 +55,16 @@ SITEMAP = {
         'pages': 'monthly',
     }
 }
+# random_article plugin options:
+RANDOM = 'random.html'
 
+#--------------------------------------------------------------------
+# comment system
+#DISQUS_SITENAME =
+
+#--------------------------------------------------------------------
+# personal URLs
+GITHUB_URL = 'https://github.com/brillliantz'
+TWITTER_URL = 'http://twitter.com'
+FACEBOOK_URL = 'http://www.facebook.com'
+LINKEDIN_URL = 'https://www.linkedin.com/in/bingnliu/en'

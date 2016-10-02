@@ -1,7 +1,10 @@
 Title: 南京大学社会实践风采之：牡丹瓷的前世今生（来自丝绸之路团队）
 date: 2016-08-20 13:00:05
-Category: Test1
-
+Slug: social_practice
+Author: bnliu
+Tags: propaganda
+Category: Private
+Summary: Our propaganda article
 
 # 背景介绍
 
@@ -62,17 +65,8 @@ Category: Test1
 
 **丝绸之路团队成员：**
 
-刘冰楠，匡亚明学院；
-孙正迪，匡亚明学院；
-王瀚宸，匡亚明学院；
-王文博，天文与空间科学学院；
-李元琪，物理学院；
-赵越玖，物理学院；
-崔笑颜，物理学院；
-王渊渟，大气科学学院；
-王静宜，外国语学院；
-贺美晨，外国语学院。
 
+this is encrpted
 
 ## 鸣谢
 
