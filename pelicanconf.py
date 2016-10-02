@@ -39,7 +39,7 @@ DEFAULT_PAGINATION = 10
 # ipynb plugin
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './pelican-plugins/'
+PLUGIN_PATHS = ['./plugins/',]
 PLUGINS = ['ipynb.markup', 'render_math', 'sitemap', 'random_article']
 # sitemap plugin options:
 SITEMAP = {
