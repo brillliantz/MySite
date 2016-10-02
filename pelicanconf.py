@@ -4,11 +4,12 @@ from __future__ import unicode_literals
 
 AUTHOR = u'BN Liu'
 SITENAME = u'BrZ site'
-SITEURL = 'https://brillliantz.github.io/MySite'
+SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
+DEFAULT_DATE_FORMAT = '%b.%d, %Y (%Z)'
 
 THEME = './theme/xycoding-gum/'
 DEFAULT_LANG = u'en'
@@ -40,7 +41,7 @@ DEFAULT_PAGINATION = 10
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['./plugins/',]
-PLUGINS = ['ipynb.markup', 'render_math', 'sitemap', 'random_article']
+PLUGINS = ['ipynb.markup', 'render_math', 'sitemap', 'random_article', 'tag_cloud',]
 # sitemap plugin options:
 SITEMAP = {
     'format': 'xml',
@@ -57,10 +58,6 @@ SITEMAP = {
 }
 # random_article plugin options:
 RANDOM = 'random.html'
-
-#--------------------------------------------------------------------
-# comment system
-#DISQUS_SITENAME =
 
 #--------------------------------------------------------------------
 # personal URLs

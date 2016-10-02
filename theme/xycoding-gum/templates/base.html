@@ -67,11 +67,13 @@
 <body id="index" class="home">
 
 <!-- Fork me on github -->
+<!--
 {% if GITHUB_URL %}
 <a target="_blank" href="{{ GITHUB_URL }}">
 	<img width="149px" height="149px" style="position: absolute; top: 0px; right: 0; border: 0;" src="{{ SITEURL }}/theme/icons/forkme.png" alt="Fork me on GitHub" />
 </a>
 {% endif %}
+-->
 
     <div class="container">
 
@@ -85,7 +87,7 @@
               <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
              
               <ul class="columns">
-                <li><a href="/">Home</a></li>
+                <li><a href="{{ SITEURL }}/">Home</a></li>
 				{% for cat, null in categories %}
 					<!--<li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>-->
 					<li><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
