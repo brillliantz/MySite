@@ -5,42 +5,42 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://brillliantz.github.io/MySite/</loc>
-<lastmod>2016-10-02T19:15:55-00:00</lastmod>
+<lastmod>2017-02-06T11:35:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://brillliantz.github.io/MySite/archives.html</loc>
-<lastmod>2016-10-02T19:15:55-00:00</lastmod>
+<lastmod>2017-02-06T11:35:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://brillliantz.github.io/MySite/tags.html</loc>
-<lastmod>2016-10-02T19:15:55-00:00</lastmod>
+<lastmod>2017-02-06T11:35:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://brillliantz.github.io/MySite/categories.html</loc>
-<lastmod>2016-10-02T19:15:55-00:00</lastmod>
+<lastmod>2017-02-06T11:35:56-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://brillliantz.github.io/MySite/test/test.html</loc>
-<lastmod>2016-10-02T12:00:00+08:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/thoughts/ListOfMotivationalThings.html</loc>
+<lastmod>2017-02-05T15:00:05+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>https://brillliantz.github.io/MySite/thoughts/SocialPractice.html</loc>
-<lastmod>2016-08-20T13:00:05+08:00</lastmod>
+<loc>https://brillliantz.github.io/MySite/test/test.html</loc>
+<lastmod>2016-10-02T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -89,7 +89,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://brillliantz.github.io/MySite/_categories/thoughts_index.html</loc>
-<lastmod>2016-08-20T13:00:05+08:06</lastmod>
+<lastmod>2017-02-05T15:00:05+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://brillliantz.github.io/MySite/_tags/motivation_index.html</loc>
+<lastmod>2017-02-05T15:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -130,13 +137,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://brillliantz.github.io/MySite/_tags/propaganda_index.html</loc>
-<lastmod>2016-08-20T13:00:05+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://brillliantz.github.io/MySite/_tags/happiness_index.html</loc>
 <lastmod>2015-07-20T13:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -152,7 +152,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://brillliantz.github.io/MySite/_authors/bnliu_index.html</loc>
-<lastmod>2016-08-20T13:00:05+08:06</lastmod>
+<lastmod>2017-02-05T15:00:05+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
