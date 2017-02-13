@@ -1,0 +1,14 @@
+language: python
+branches:
+  only:
+  - master
+install:
+- pip install -r requirements.txt
+before_script:
+- pelican-themes -i ./theme/elegant
+script:
+- make publish github
+env:
+  global:
+      - GH_REPO: brillliantz/mysite
+      - secure: MQDdjsa0JGpXRjg39KyCvuaIY/VvCQI1TzUTZeaCqVIIuMPmJQTQq+9PzREcl0FjDVJkyhrsJnXLVyCe0YQ3s+VxWT0hLmdsCl3maaYe3nRcqbmMY2uk2Y2QwMn4iOhy4ZQKAS4Cew5PIfoLzT8Luvy0z2I8s9GJrghE2oLbNd5HracWbKlPc0g4QLDLuCfQjyFeHbB5GojtZKNSNATMXkIDJ8PCVsYqeZa8rDtsOMtjuGnbTBu7deVgRPbyD2rmDNggHhGqFzNR5hYRlLnAEndc16S9vvaF1cPs8k+FjWyOUZgaHnkbtQ5fM19Hur3//Ztq6l0eozxJ6jJwAdpcyBw00jOsb9kakmiN6w9bTaW4nzS6jAKlwpRhu3Nw4u4pm2SHOlKX5VFEcGWSvgTU0W8ajTgg2XupniQ4lkD4ODOHtamT2cYa3BHnR0OmowzTj48yeZhyecs/k4JFQdzU52JdGiA2YVa8pJfcjN7wVIij8BafdW1HhDzDZWypgiwLZ9M98FuFLG8h5eE5odCQSZlWs/dmt6z631CGFlsrqkqPI7RqET7heOyPtTq2u7DQIQvIX8E1RoH0S059ckNCMfzoF9T1wTSyU5Cg0PRRTyeYJTMchTYWalHzqeWErZSs/SgxOcc1VpqCCfHjXqWuDmWjyeWQkny1VPcRpz7QqlM=
