@@ -1,3 +1,5 @@
+# [My Personal Website](https://brillliantz.github.io/mysite/)
+[![Build Status](https://travis-ci.org/brillliantz/mysite.svg?branch=master)](https://travis-ci.org/brillliantz/mysite)
 ## WorkFolw
 
 1. write articles in `docs/` using markdown
