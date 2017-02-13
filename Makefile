@@ -122,8 +122,10 @@ github: publish
 # local push method
 #	git push origin $(GITHUB_PAGES_BRANCH)
 # push method for Travis CI
-#     >/dev/null redirects the command standard output to the null device
-	git push -f https://${GH_TOKEN}@github.com/${GH_REPO}.git $(GITHUB_PAGES_BRANCH)
+#     - `>/dev/null` redirects the command standard output to the null device
+#     - `GH_TOKEN` and `GH_REPO` are env variables, which are set in file `.travis.yml`
+	git push https://${GH_TOKEN}@github.com/${GH_REPO}.git $(GITHUB_PAGES_BRANCH)
+
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github

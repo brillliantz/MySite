@@ -1,13 +1,20 @@
 language: python
+
+python:
+    - "2.7"
+
 branches:
   only:
   - master
-install:
-- pip install -r requirements.txt
+
+install: "pip install -r requirements.txt"
+
 before_script:
 - pelican-themes -i ./theme/elegant
+
 script:
-- make publish github
+- make github
+
 env:
   global:
       - GH_REPO: brillliantz/mysite

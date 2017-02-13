@@ -8,4 +8,7 @@ Summary: my improvement today.
 - compound interest
 - morning exercise: leverage, convenience
 
+## Active monitering my self and active feedback
+test content.
+
 
