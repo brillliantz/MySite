@@ -120,7 +120,7 @@ cf_upload: publish
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) -n $(OUTPUTDIR)
 # local push method
-	git push origin $(GITHUB_PAGES_BRANCH)
+#	git push origin $(GITHUB_PAGES_BRANCH)
 # push method for Travis CI
 #     >/dev/null redirects the command standard output to the null device
 	git push -f https://${GH_TOKEN}@github.com/${GH_REPO}.git $(GITHUB_PAGES_BRANCH)# >/dev/null
