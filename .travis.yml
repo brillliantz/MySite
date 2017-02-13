@@ -7,6 +7,8 @@ branches:
   only:
   - travis-test
 
+before_install: "pip install -r requirements_0.txt"
+
 install: "pip install -r requirements.txt"
 
 before_script:
