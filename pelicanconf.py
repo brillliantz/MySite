@@ -111,7 +111,15 @@ PROJECTS = [
 
 
 # Here are the variables that you should set in your configuration to get the most out of Elegant
-MARKDOWN = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+#MARKDOWN = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 #STATIC_PATHS = ['theme/images', 'images']
 
