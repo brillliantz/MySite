@@ -3,6 +3,6 @@ ghp-import==0.5.4
 Markdown==2.6.8
 pelican==3.7.1
 jupyter>=1.0
-ipython>=4.0
+ipython==5.0
 nbconvert>=4.0
 beautifulsoup4
