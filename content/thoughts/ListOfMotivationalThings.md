@@ -5,6 +5,8 @@ Tags: motivation
 Summary: 平常会不时遇到能给人打鸡血的东西，都放在这里，可备不时查看。
 
 
+[toc]
+
 ## Alibaba Group The Journey to IPO - 阿里巴巴IPO全程回顾
 
 ### 介绍
