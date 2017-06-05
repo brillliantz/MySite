@@ -67,6 +67,8 @@ AUTHOR_SAVE_AS = AUTHOR_URL
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATHS = ['./plugins/',]
+#----------------------------------------------------------------------
+
 PLUGINS = ['ipynb.markup', 'render_math', 'sitemap','random_article', 'tag_cloud', 'extract_toc', 'tipue_search']
 # sitemap plugin options:
 SITEMAP = {
