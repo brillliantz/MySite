@@ -29,3 +29,29 @@ ref:
 ## Continuous Integration for deployment
 [extact match](http://shaunagordon.com/blog/2016/01/13/pelican-travis-and-github/)
 
+### requirements list
+#### Pelican main
+ghp-import==0.5.4
+Markdown==2.6.8
+pelican>=3.7.1
+
+#### plugin `ipynb.markup`
+jupyter>=1.0
+ipython>=4.0
+nbconvert>=4.0
+beautifulsoup4
+
+#### plugin `extract_toc`
+beautifulsoup4
+
+#### plugin `tipue_search`
+beautifulsoup4
+
+#### other dependency known from Travis CI log
+- six (required by [simplegeneric], but [simplegeneric] doesn't mark this, which will cause error)
+
+
+## test
+- gh-pages branch for project site test: just use the tutorial given by GitHub
+- make publish for Pelican test: manually do it. must use a different command in `Makefile`
+
