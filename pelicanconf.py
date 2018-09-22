@@ -98,17 +98,17 @@ LINKEDIN_URL = 'https://www.linkedin.com/in/bingnliu/en'
 # Below are settings only for the Elegent theme
 
 # About Me section on homepage
-LANDING_PAGE_ABOUT = {'title': "I'm a junior in physics, focusing on quant trading.",
-                      'details': "Always seeking the infinite beauty of the world in my finite existence."}
+LANDING_PAGE_ABOUT = {'title': "Read, Think, Write.",
+                      'details': "How could you refuse to explore such a qute, wonderful world?"}
 
 # PROJECTS section on homepage
 PROJECTS = [
-    {'name': 'Citi Financial Innovation Application Competation',
-     'url': 'http://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFC.html',
-     'description': 'Leader. Lead the team to design a robo-advisor platform, allocating among major assets.',},
-    {'name': 'Quantitative Analyst Intern @Wizardquant',
-     'url': 'http://www.wizardquant.com/en/html/aboutus.html',
-     'description': 'Research on statistical modeling.',}
+    #{'name': 'Citi Financial Innovation Application Competation',
+    # 'url': 'http://www.citigroup.com/china/csts/EducationProgram/AboutEducation_CFC.html',
+    # 'description': 'Leader. Lead the team to design a robo-advisor platform, allocating among major assets.',},
+    #{'name': 'Quantitative Analyst Intern @Wizardquant',
+    # 'url': 'http://www.wizardquant.com/en/html/aboutus.html',
+    # 'description': 'Research on statistical modeling.',}
 ]
 
 
