@@ -128,3 +128,5 @@ DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 
 #----------------------------------------------------------------------
 
+# To enable table of contents generation for the Markdown reader you need to set `MD_EXTENSIONS = (['toc'])` in your Pelican configuration file.
+MD_EXTENSIONS = (['toc'])
