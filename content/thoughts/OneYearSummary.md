@@ -1,5 +1,5 @@
 Title: 毕业工作一年的总结
-date: 2018-10-07 23:30:00
+date: 2019-10-07 23:30:00
 Author: bnliu
 Tags: thoughts
 Summary: A big summary 1 year after graduation and work.
