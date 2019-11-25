@@ -1,4 +1,4 @@
-Title: 毕业工作一年的总结
+Title: 业余爱好的高低和艺术的雅俗
 date: 2019-11-25 22:05:00
 Author: bnliu
 Tags: thoughts
