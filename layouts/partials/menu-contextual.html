@@ -3,6 +3,7 @@
   https://gohugo.io/content-management/toc/
 */}}
 
+
 {{- if .Params.toc | default .Site.Params.toc -}}
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">{{ i18n "whatsInThis" . }}</p>
@@ -14,6 +15,13 @@
   Use Hugo's native related content feature to pull in content that may have similar parameters, like tags. etc.
   https://gohugo.io/content-management/related/
 */}}
+
+<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+  <br><br><br><br>
+  <a href="{{ .Permalink }}">
+    Link of This Article
+  </a>
+</div>
 
 {{ $related := .Site.RegularPages.Related . | first 15 }}
 

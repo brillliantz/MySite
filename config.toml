@@ -2,7 +2,7 @@ title = "Bingnan's Blog"
 baseURL = "https://brillliantz.github.io/mysite/"
 languageCode = "zh-cn"
 theme = "ananke"
-summaryLength = 10
+summaryLength = 140
 hasCJKLanguage = true
 
 MetaDataFormat = "yaml"
@@ -40,3 +40,5 @@ disqusShortname = "bnliu"
   commentoEnable = true
   show_reading_time = true
   toc = true
+
+permalinks = "/:year/:month/:title/"
