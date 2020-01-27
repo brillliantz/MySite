@@ -1,10 +1,12 @@
-Title: 掌握注意力的自主权
-date: 2020-01-26 19:07
-Author: bnliu
-Tags: thoughts
-Summary: Seize your attention.
-
-## 前言
+---
+title: "注意力"
+date: 2020-01-26
+draft: false
+tags: 
+- 时间管理
+- 注意力管理
+- 信息
+---
 
 在数字移动互联网时代，我们拥有无比便捷低门槛的信息获取手段，却很少感到学习效率的真正提高。更糟的是，越来越多乱七八糟的信息占据了我们的时间，让我们不时有深陷泥沼而不能自拔的失控感受。
 
@@ -12,6 +14,7 @@ Summary: Seize your attention.
 
 因此，我很想知道，我们的注意力是如何被“抢走”的，我们又该如何理智地投注我们的注意力。
 
+<!--more-->
 
 ## 逆数字化而行的精英家长：注意力经济时代下的新型数字鸿沟
 [NYTimes的这篇文章](https://www.nytimes.com/2018/10/26/style/digital-divide-screens-schools.html)提到，在美国普通公立学校大力推行1：1 iPad教学的同时，受硅谷高管青睐的[the Waldorf School of the Peninsula](https://waldorfpeninsula.org/)则坚持推行纯纸笔的无屏幕教育。此外调查也显示，高收入家庭相比低收入家庭，白人家庭相比与其他肤色人种家庭，前者的孩子每天的screen-time都显著低于后者。
@@ -40,7 +43,7 @@ Summary: Seize your attention.
 #### Top-Down的Persuasive Design
 之前我只知道上面提到的通过统计来研究什么样的设计更能吸引用户，万万没想到其实还有一整个学术领域研究design对人类行为的影响，而且很多App都基于这些研究成果，做出了针对人性弱点的各种设计。
 
-_Persuasive Design_或者叫 _Persuasive Technology_(并不知道中文翻译)研究的是科技上的一些设计如何影响人类的思维和行为。这个领域由Standford的行为学教授B.J.Fogg开创，他还有个[Lab](http://captology.stanford.edu)专门做这方面的研究。Instagram的联合创始人Mike Krieger是他的学生，硅谷一众大佬把他的著作奉为圣经。他关于人类行为理论的一个核心公式是：
+_Persuasive Design_ 或者叫 _Persuasive Technology_(并不知道中文翻译)研究的是科技上的一些设计如何影响人类的思维和行为。这个领域由Standford的行为学教授B.J.Fogg开创，他还有个[Lab](http://captology.stanford.edu)专门做这方面的研究。Instagram的联合创始人Mike Krieger是他的学生，硅谷一众大佬把他的著作奉为圣经。他关于人类行为理论的一个核心公式是：
 > Behavior = Motivation + Ability + Trigger
 
 这里behavior指人产生行动，motivation指这个行动的激励大小，ability代表进行这个行动的难易程度，trigger则是一个特定的事件对人产生影响推动他开始行动。例如：
@@ -64,7 +67,7 @@ _Persuasive Design_或者叫 _Persuasive Technology_(并不知道中文翻译)�
 
 
 ### 行业伪自律：换汤不换药的解决方案
-越来越多的人意识到了自己注意力的失控和背后科技公司处心积虑的设计，控诉他们的声音也越来越大。作为应对，科技公司积极推出了 _Time Well Spent_系列App，比如
+越来越多的人意识到了自己注意力的失控和背后科技公司处心积虑的设计，控诉他们的声音也越来越大。作为应对，科技公司积极推出了 _Time Well Spent_ 系列App，比如
 - Facebook's Time Management
 - Apple's Screen Time
 - Google's Digital Wellbeing

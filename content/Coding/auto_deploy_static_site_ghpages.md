@@ -1,3 +1,9 @@
+---
+title: "Blog generator"
+date: 2018-09-22
+draft: false
+---
+
 ## Static sites v.s. Dynamic ones
 difference
 
