@@ -20,7 +20,7 @@ disqusShortname = "bnliu"
   filename = "sitemap.xml"
 
 [params]
-  favicon = ""
+  favicon = "mysite/favicon.ico"
   description = "Read, Think, Write."
   facebook = ""
   twitter = ""
