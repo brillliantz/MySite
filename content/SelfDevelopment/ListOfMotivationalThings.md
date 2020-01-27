@@ -1,11 +1,12 @@
-Title: 为什么要好好工作 -- List
-date: 2017-02-05 15:00:05
-Author: bnliu
-Tags: motivation
-Summary: 平常会不时遇到能给人打鸡血的东西，都放在这里，可备不时查看。
+---
+title: "自我激励集锦"
+date: 2017-02-05
+draft: false
+---
 
+平常会不时遇到能给人打鸡血的东西，都放在这里，可备不时查看。
 
-[toc]
+<!--more-->
 
 ## Alibaba Group The Journey to IPO - 阿里巴巴IPO全程回顾
 

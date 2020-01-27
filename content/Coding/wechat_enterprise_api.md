@@ -1,8 +1,15 @@
-Title: How to Use the WeChat Enterprise Account API
-date: 2017-02-26 10:50:07
-Author: bnliu
-Tags: WeChat, Python
-Summary: A tutorial on using WeChat enterprise API to get token, send messages, etc.
+---
+title: 用企业微信API开发微信机器人
+date: 2017-02-26
+draft: false
+tags:
+- WeChat
+- Python
+---
+
+记录了Python学习的历程和用爬虫解决实际问题的经历.
+
+<!--more-->
 
 
 ### 相关链接

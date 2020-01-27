@@ -9,6 +9,7 @@ difference
 
 ### why I choose static ones
 
+<!--more-->
 
 ## static sites generator ranking
 ref

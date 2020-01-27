@@ -1,9 +1,14 @@
-Title: 反思录--相信复利的力量
-date: 2019-01-04 13：11
-Author: bnliu
-Tags: thoughts
-Summary: Improve a LITTLE bit EVERY day.
+---
+title: "反思录--相信复利的力量"
+date: 2019-01-04
+draft: false
+---
 
+每天都应该反思进步。
+
+本文暂时废弃。
+
+<!--more-->
 
 ## 日级别反思
 ### 2018-01-02 to 2018-01-04

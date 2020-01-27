@@ -1,11 +1,13 @@
-Title: 23岁的一些计划
-date: 2018-09-23 19:00:00
-Author: bnliu
-Tags: thoughts
-Summary: What I am thinking when I am twenty-three years old.
+---
+title: "23岁的一些计划"
+date: 2018-09-23
+draft: false
+tags: 
+- 阶段总结
+---
+What I am thinking when I am twenty-three years old.
 
-
-[toc]
+<!--more-->
 
 工作为核心，健康为基础，可持续发展真的不是空话呀~
 

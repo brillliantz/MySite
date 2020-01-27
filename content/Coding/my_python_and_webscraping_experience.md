@@ -1,11 +1,15 @@
-Title: 陪伴我大学的Py和爬虫
-date: 2017-09-10 20:50:07
-Author: bnliu
-Tags: girlfriend, python, webscraping
-Summary: About my learning experience of Python and Webscraping.
+---
+title: "贯穿大学生涯的Python和爬虫"
+date: 2017-09-10
+draft: false
+tags:
+- Python
+- webscraping
+---
 
+记录了Python学习的历程和用爬虫解决实际问题的经历.
 
-本文第一部分分学期记录了Python学习的历程，第二部分则记录了用爬虫解决实际问题的经历.
+<!--more-->
 
 ## 大二下
 《计算物理》、实验报告和实习

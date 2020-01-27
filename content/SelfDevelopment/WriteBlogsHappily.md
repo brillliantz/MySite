@@ -1,11 +1,12 @@
-Title: 开心就要写
-date: 2018-06-27 10:00:05
-Author: bnliu
-Tags: motivation
-Summary: I want to write blogs now!
+---
+title: "开博客的动机"
+date: 2018-06-27
+draft: false
+---
 
+I want to start writing right now!
 
-[toc]
+<!--more-->
 
 ## 好消息给人动力
 早上起来读邮件发现安排的公寓是furnished而不是一开始问到的unfurnished！King size bed and high-end items！开心！

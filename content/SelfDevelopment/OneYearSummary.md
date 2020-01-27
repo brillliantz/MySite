@@ -1,8 +1,13 @@
-Title: 毕业工作一年的总结
-date: 2019-10-07 23:30:00
-Author: bnliu
-Tags: thoughts
-Summary: A big summary 1 year after graduation and work.
+---
+title: "毕业工作一年的总结"
+date: 2019-10-07
+draft: false
+tags: 
+- 阶段总结
+---
+
+方法论、价值观、事业与生活。
+<!--more-->
 
 ## 对“好Quant”的理解
 - 知道看什么指标，如何获取数据，如何利用统计知识，如何可视化；

@@ -1,13 +1,17 @@
-Title: 消费主义
-date: 2019-09-08 19:00:00
-Author: bnliu
-Tags: thoughts
-Summary: Study and reflect over the consumerism.
+---
+title: "消费主义"
+date: 2019-09-08
+draft: false
+tags: 
+- 消费主义
+---
 
-## Intro
+
 在这个时代似乎没有什么比钱更好使，没有什么比赚钱更重要。我本人爱钱，爱钱带来的选择、便利和享受。然而，_消费主义_通过利用人性，让我（们）更容易多花钱而难以积累资产，这个点之前就读到过，个人也十分认可，但我还是希望能对消费主义有更深入的理解。
 
 在思考的过程中我也发现这个话题实际牵扯到很多更大的话题，比如资本主义、金融泡沫、幸福观等。所以大概是一个值得长期思考的问题。
+
+<!--more-->
 
 ## 正文
 主要内容是读[公众号仙人JUMP关于消费主义的一篇文章](https://mp.weixin.qq.com/s?__biz=MzI5MTE2NDI2OQ==&mid=2247485315&idx=1&sn=05384aa848ae7ed4bbfc251dad35fa5a&chksm=ec159e81db62179799d5354d79e89b0688cc845501f7d71b2a7aaeba581beda8895dd20f0b29&mpshare=1&scene=1&srcid=0907zPhCkxYd48SvMl8ccqBd&sharer_sharetime=1567939371558&sharer_shareid=697e80f2ddb52b0c1776ea7b175bf5ea&key=d5739ef05bcda630014071ada09b645ef0378a78342a86b748b014bcf444ef19264a7a585238b466c73d7a7725b875560fbcea25128e9d30949ae11a386b7a8bc248f2bdcfed79a335a0d57da843cc59&ascene=1&uin=ODYyODg5ODAw&devicetype=Windows+10&version=62060833&lang=en&pass_ticket=ZKtcid4Hd53p9HsKg%2F8xxbpbfmvukTJ5hAK0kqf3Wfgl2ffkEpbPO4NEZg%2B7nHl5)的读书笔记，加上一些自己的思考。
