@@ -1,5 +1,5 @@
 title = "Bingnan's Blog"
-baseURL = "http://bnliu.com"
+baseURL = "https://brillliantz.github.io/mysite/"
 languageCode = "zh-cn"
 theme = "ananke"
 summaryLength = 10
