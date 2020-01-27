@@ -20,6 +20,9 @@ disqusShortname = "bnliu"
   filename = "sitemap.xml"
 
 [params]
+  body_classes = "helvetica bg-near-white"
+  mainSections = ["SelfDevelopment", "PeriodicalReflection", "Quant", "Coding"]
+  custom_css = ["/css/custom.css"]
   favicon = "mysite/favicon.ico"
   description = "Read, Think, Write."
   facebook = ""

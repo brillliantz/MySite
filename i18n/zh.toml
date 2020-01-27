@@ -5,7 +5,7 @@ other = "更多"
 other = "所有 {{.Title }}"
 
 [recentTitle]
-other = "最近 {{.Title }}"
+other = "最近文章"
 
 [readMore]
 other = "继续阅读"

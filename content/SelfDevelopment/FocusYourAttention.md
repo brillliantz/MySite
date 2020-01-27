@@ -1,5 +1,5 @@
 ---
-title: "注意力"
+title: "合理投资我们宝贵的注意力"
 date: 2020-01-26
 draft: false
 tags: 
