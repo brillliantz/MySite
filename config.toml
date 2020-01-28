@@ -42,7 +42,7 @@ disqusShortname = "bnliu"
   commentoEnable = true
   show_reading_time = true
   toc = true
-  featured_image = "/images/RYBWnB.jpg"
-  cover_dimming_class = "bg-black-20"
+  featured_image = "/images/RYBWnB.svg"
+  cover_dimming_class = "bg-black-0"
 
 [permalinks]
