@@ -1,6 +1,6 @@
 title = "Bingnan's Blog"
 baseURL = "https://brillliantz.github.io/mysite/"
-languageCode = "zh-cn"
+languageCode = "en"
 theme = "ananke"
 summaryLength = 140
 hasCJKLanguage = true
@@ -9,7 +9,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 10
-googleAnalytics = ""
+googleAnalytics = "UA-157119715-1"
 enableRobotsTXT = true
 
 disqusShortname = "bnliu"
@@ -45,4 +45,4 @@ disqusShortname = "bnliu"
   featured_image = "/images/RYBWnB.jpg"
   cover_dimming_class = "bg-black-20"
 
-permalinks = "/:year/:month/:title/"
+[permalinks]
