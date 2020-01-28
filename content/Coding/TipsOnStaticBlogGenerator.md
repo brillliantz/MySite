@@ -53,4 +53,5 @@ _注：选框架的网站是[StaticGen](https://www.staticgen.com/)，可以根�
     }
     ```
 9. 选好看、成熟的主题（Hugo[官方默认主题](https://themes.gohugo.io/gohugo-theme-ananke/)就很强，宣称"The last theme you'll  ever need"），如果主题作者对框架的使用很烂，你在改的时候也会很痛苦。
+10. 考虑加速访问：使用[Chrome Dev Panel分析访问速度瓶颈](https://developers.google.com/web/tools/chrome-devtools/network/resource-loading)，使用本地CDN、SVG图片等优化访问速度.
 
