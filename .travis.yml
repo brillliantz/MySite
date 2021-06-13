@@ -23,14 +23,13 @@ env:
     - HUGO_VER: "0.63.1"
     # - GH_REPO: brillliantz/mysite
     # - GITHUB_PAGES_BRANCH: gh-pages
-    - secure: "qomLrQrsddQiwt91WNAp8snj7sVzZbdYe9yrX+TzP1yWYTPvNNFDSG5JWLz3OyQ0ipD0SnGcGOF+2jZWzKzWB/KEOCLyGAYRQPC9vAmdzt0OH28dZ1l4UtdW3XruEYF1SomtmYnUTnR3gJD891EB2/QR6u6iW+Zt1ng02o8jfFt+1DCBMRmYKU/Mng78d0JGSHrgNKclkpFpHq8LD6WL2LrnCS1vKXSX+Iwa7gJZ9EueFV3gUDk41ad5ZeX9u3HKiU1uAymNtKu69Q9OPcqA7SAmqJaObtc+EgDNgKkRfKat1O3RwWcQOMnIvOnY/gfAa19t36xMBd4/3R5Y3fAQTqUtMn20Ga8kOgjC3G1bHoStuYEXLHqk3JpoMBjTZCjEaSUdtVZylhJMn9xJ/2IMuLxR0hYIO25zdkaARjmF8nQwMKcIzF894kR4GJtdBEWUUo2+d3YCx3yX9ijs03GHt9VEhFgDEVoZhbEbpWbaSJ4xQ6vmVZTg7zKxZFoFud/P4E6+zzyb6PPU98Rp+IeidRueHIpjQQoed8SLQfP4WA3fipOn30OK549zWGPjm+e6QpuzDuceMDpKlrgqWv56WOn1EEGCIJavtMNXeubhGgVXVIS+9Gu3gUCnTPNazRWPOLATrNg32Nu4q6HOGj0qayOwZjygiZQ+IhAJt/AOcdQ="
 
 deploy:
   provider: pages
   local_dir: public
   target_branch: gh-pages
   skip_cleanup: true
-  github_token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github_token: $GITHUB_TOKEN  # Set in the repo settings page on TravisCI
   keep_history: false
   on:
     branch: master
