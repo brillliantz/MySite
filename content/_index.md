@@ -3,7 +3,7 @@ title: "Bingnan's Blog"
 description: "Read, Think, Write"
 ---
 
-这个博客和我的[微博](https://weibo.com/u/2621383013)都是我输出想法的地方，篇幅较短的想法会发布在微博，而很难在几句话说明白的就发表于此。
+这个博客和[微博](https://weibo.com/u/2621383013)都是我输出想法的地方，篇幅较短的想法会发布在微博，很难在几句话说明白的则发表于此。
 
 写微博和博客的目的，一是通过写作帮助自己更好地深度思考，二是作为一个其他人了解我的窗口，肯定会结识更多有趣的人。
 <!-- Writing helps better thinking from [Jordan Peterson](https://www.youtube.com/watch?v=bfDOoADCfkg); Menifesting yourself and meeting people on the Internet creates new opportunities see (Play the great online game)[https://www.notboring.co/p/the-great-online-game-audio] --> 
