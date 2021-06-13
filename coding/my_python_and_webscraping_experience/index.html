@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Bingnan&#39;s Blog  | 贯穿大学生涯的Python和爬虫</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.63.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/mysite/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+      <link rel="stylesheet" href="/mysite/css/custom.css">
+    
+
+    
+      
+<link rel="shortcut icon" href="/mysite/favicon.ico" type="image/x-icon" />
+
+    
+
+    
+    
+    <meta property="og:title" content="贯穿大学生涯的Python和爬虫" />
+<meta property="og:description" content="记录了Python学习的历程和用爬虫解决实际问题的经历." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brillliantz.github.io/mysite/coding/my_python_and_webscraping_experience/" />
+<meta property="article:published_time" content="2017-09-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-09-10T00:00:00+00:00" />
+<meta itemprop="name" content="贯穿大学生涯的Python和爬虫">
+<meta itemprop="description" content="记录了Python学习的历程和用爬虫解决实际问题的经历.">
+<meta itemprop="datePublished" content="2017-09-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-09-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4722">
+
+
+
+<meta itemprop="keywords" content="Python,webscraping," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="贯穿大学生涯的Python和爬虫"/>
+<meta name="twitter:description" content="记录了Python学习的历程和用爬虫解决实际问题的经历."/>
+
+  </head>
+
+  <body class="ma0 helvetica bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://brillliantz.github.io/mysite/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Bingnan&#39;s Blog
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/mysite/contact/" title="AboutMe page">
+              AboutMe
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/mysite/coding/" title="Codings page">
+              Codings
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/mysite/periodicalreflection/" title="PeriodicalReflections page">
+              PeriodicalReflections
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/mysite/selfdevelopment/" title="SelfDevelopments page">
+              SelfDevelopments
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/bingnliu" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/brillliantz" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        CODINGS
+      </p>
+      <h1 class="f1 athelas mb1">贯穿大学生涯的Python和爬虫</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2017-09-10T00:00:00Z">September 10, 2017</time>
+      
+      
+        <span class="f6 mv4 dib tracked"> - 10 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 4722 words</span>
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>记录了Python学习的历程和用爬虫解决实际问题的经历.</p>
+<h2 id="大二下">大二下</h2>
+<p>《计算物理》、实验报告和实习</p>
+<p>一开始犯了从头来的老毛病，要一个个装package，装到对编译依赖比较多的scipy系列时终于放弃，选择anaconda</p>
+<p>Language syntax的确做到了一下午无痛入门，看的是<em>ScipyLectures</em>.</p>
+<p>大二下同时找到了实习，老板也让先学好Python，于是买来的计算物理书没怎么看，但每次编程作业都做的非常好，由于教授和助教都是刚把语言从C&amp;Fortran换到Python，所以我才有机会频频和老师“交流经验”。</p>
+<p>与此同时没有忘记<strong>从头学</strong>的想法，找来（现在看来）大名鼎鼎的<em>Learn Python the Hard Way</em>学习，可惜时间不够，全书52个exercise只学了30+（最近还又看了最后几个exercise，依然觉得很有收获），不过倒是把初学编程最容易弄不清的如<em>IDE和Terminal有什么区别，程序如何运行</em>等问题搞明白了些。</p>
+<p>为了准备实习、搞清楚<code>numpy</code>、<code>pandas</code>，正好学期末的<em>物理实验</em>和<em>数学物理方法</em>课程都有论文，就搞了个用Python对热波传播的数据进行分析处理的小项目。现在回头看当时的报告，居然包含了极端值、空值检查，插值法填补，时间序列去趋势，FFT降噪，感觉当时自己挺nb的，哈哈。</p>
+<p>暑假开始实习，工作环境直接就是Ubuntu+VNC，一个小三百万行的HD5放在那里等我搞。这期间没专门参考什么书，就是需要做什么查什么文档。编程能力倒不是实习的主要目的，然而由于天天写、花式写，倒也是对统计数据分析熟悉了不少。</p>
+<h2 id="大三上">大三上</h2>
+<p>大三上一直在用C++肝数据结构，此部分非本文重点。</p>
+<p>此外，考了一个新出炉的Python二级考试，虽然通过这种考试非常随意而无聊，但借此机会把python官方文档又自习看了看，总结了总结。</p>
+<h2 id="大三下">大三下</h2>
+<p>这段时间主要是找实习过程中的进步。暂略（今天主要写爬虫啦）。</p>
+<h2 id="大三暑期实习">大三暑期实习</h2>
+<p>这段时间Python水平仍是飞速进步，暂略。</p>
+<h2 id="流水的网站铁打的爬虫">流水的网站，铁打的爬虫</h2>
+<p>不得不说爬虫上手的简单、设计领域的广泛和细节处理的复杂性，就像是<strong>设计精巧的闯关游戏</strong>，带领你从新手村一路打怪练级；同时随着等级提高，它又能帮你解决更多实实在在的问题。感谢它！</p>
+<p>提到爬虫就不得不提到可爱的<strong>教务处</strong>，围绕着个人信息、查成绩、选课，产生了无数需求……</p>
+<h3 id="爬虫101---规则网址图片下载">爬虫101 - 规则网址图片下载</h3>
+<p>某哥们暗恋同选修课的一姑娘，知道院系却不知道其他信息，就去教务网一张张照片翻，我虽然想说服他去搭讪，但我更关系他哪来的照片。终于知道原来所有学生的入学照片按照学号存在一个固定的网址下，而且没有任何权限限制。</p>
+<p>我首先想到的是迅雷的批量下载功能，但还是决定使用Python，感谢<code>requests</code>给出这么简介优雅的HTTP request解决方案，如果google教程时看到的是直接调用urllib的那种代码，我的爬虫之旅说不定就被扼杀在摇篮里了。</p>
+<p>由于程序逻辑简单，又是内网速度很快，没几分钟全校的（带着姓名和学号的）照片就都躺在硬盘里了（我已严格遵守法律关于交流学习资源的相关规定在下载24h内删除）。这种快速实现的成就感是无以复加的。</p>
+<h3 id="初识post-method---校园网自动登录">初识POST METHOD - 校园网自动登录</h3>
+<p>搞完上一个，就想到了校园网登录，每次手动开实在麻烦，想写一个脚本自己用（顺便装逼）。</p>
+<p>登录就不仅仅是在<code>requests.get(url)</code>这么简单了，需要向服务器额外发送表单数据，这个时候学会了用chrome F12看request和response的内容。</p>
+<p>登录脚本很快就写好了，但发现手动运行python和手动开网页区别不大，于是又结合快速启动工具写了windows上的bat，发现windows可以说是很恶心了。最后发现真正的需求是wifi出现问题、电脑移动位置后，自动重连，这需要和系统交互，google一搜全是windows api开发，果断放弃。</p>
+<h3 id="漂亮的肥皂---html解析">漂亮的肥皂 - HTML解析</h3>
+<blockquote>
+<p>战争、色情、欲望是推动科技发展的源动力；成就感（窥探欲）和数据分析（科学装逼）是推动爬虫的源动力</p>
+</blockquote>
+<p>体育锻炼打卡查询网站外观简陋，信息丰富，最重要密码=用户名=学号，这让我无法控制自己的麒麟臂。不过话说，最初的想法是用来随时用学号/姓名互查以及查身高体重，结果现在一年多那个存好的excel也没开过2次。</p>
+<p>当时的我，还不会正则表达式，没有萌生对目标字符串一个个匹配的智障想法，而是发现BeautifulSoup这个包，正好那时对ipython notebook也比较熟了，就在ipynb里研究html解析，也开始熟悉<code>div</code>, <code>span</code>, <code>tr</code>等tag</p>
+<p>随着程序逻辑变复杂，我的代码也变得有点脏了，当时就是凭着感觉走嘛，而且从PyCharm换了WingIDE，没有代码风格提示，就是凭着感觉写。</p>
+<h3 id="再复杂一点---成绩查询-和-逸夫楼自习教室课表">再复杂一点 - 成绩查询 和 逸夫楼自习教室课表</h3>
+<p>我喜欢在考完试后最短的时间内知道成绩，趁着考试的感觉还在尽快自我伤害，于是在考试周我会每几个小时点进教务系统查一次成绩，久而久之我可以闭眼操作了 &mdash; 那为什么不写个爬虫呢？</p>
+<p>这不仅涉及登录，还要保存cookie，页面跳转、解析、再跳转、再解析，最后把数据放在<code>DataFrame</code>里print出来，收获：</p>
+<ul>
+<li>这让我写了一个类出来，因为相关函数很多，而且还要保存<code>requests.Session</code></li>
+<li>要处理各种编码问题，<code>unicode</code>, <code>utf-8</code>, <code>gbk</code>, <code>ascii</code>傻傻分不清楚</li>
+</ul>
+<p>至于逸夫楼自习教室课表，则有个小故事。某日在逸夫楼自习，一妹子问如何下掌上南大，因为逸夫楼教室门上没有贴课表，她总是需要中途换教室。我凭记忆找了下那个网站，没有找到，实在<strong>没有办法</strong>，<strong>迫不得已</strong>加了她微信，说回去找找发给她。结果回去也没找到，那&hellip;<strong>干脆自己写一个</strong>！</p>
+<p>法律判决中听说过“激情杀人”，那我就算是“激情写码”，从10点回去写到2点，没考虑什么代码风格，直接在ipynb里边试边写，其中涉及了</p>
+<ul>
+<li>对所有院系、专业的课表遍历（所以得先搞出来院系代码）</li>
+<li>筛选地点出含“逸”的课</li>
+<li>整理放到dataframe里再按教室号group</li>
+</ul>
+<p>最后搞出来个csv，又用excel搞搞数据透视表什么的，生成了一份颜值略高的PDF，牛逼哄哄起名为《南京大学 16-17第一学期 逸夫楼自习指南》</p>
+<h3 id="来吧验证码---gre抢座">来吧验证码！ - GRE抢座</h3>
+<p>除了查成绩，我还要查GRE考位，想报个好点的考场，尽管ETS网页设计没毛病，但一次次用鼠标点实在太恶心了，果断爬之。</p>
+<p>这次就恶心了：</p>
+<ul>
+<li>网页上没有验证码图片网址，需要先访问一个<strong>神秘链接</strong>，从response中拿到<strong>神秘图片地址</strong>，从而获得验证码</li>
+<li>得从图片url转成image object再弹出来，让我输入</li>
+<li>登录账号时提交的form中有个叫<code>csrf_token</code>的神奇东西，找了一个多小时，才发现隐藏在网页源代码的一个角落，还要用regex取出来</li>
+</ul>
+<p>最后把这个和之前的校园网登录脚本放在一个windows脚本中，用不同的参数来区分运行哪个，终于在我不懈查找下，抢到了考位。</p>
+<h3 id="搞个amazon的服务器吧---724服务端抢课">搞个Amazon的服务器吧 - 7*24服务端抢课</h3>
+<p>大三下到了，能否把学分修够，影响大四能否自由实习，不得不抢一波课了。也是在这个过程中，终于感觉用到了一点智商。</p>
+<p>首先把之前写的gre查询的类简单修改，就可以用来抢课了，发现自己抽象的还不错（其实应该是继承之类的，当时很菜）</p>
+<h4 id="控制变量法实验">控制变量法实验</h4>
+<p>用浏览器提交选课正常，但用爬虫就不行。于是打开隐身窗口，浏览器做一步，代码调试一步，终于发现：不可以直接提交选课，需要先访问一次选课列表的界面&ndash;一句GET搞定。教务处隐藏的小心机哈哈哈哈哈</p>
+<h4 id="url找规律">URL找规律</h4>
+<p>当时不会看<code>onClick=blabla</code>，也不会看JavaScript函数，只知道点提交，看request form，但通识课全部选满无法提交，就无法知道表单内容。于是我开始根据其他类型课程推测：</p>
+<p>之前通修课补选的时候，发现<strong>查看列表</strong>的URL和<strong>选课</strong>的URL很像：<br>
+<code>/courseList.do?method=commonCourseRenewList&amp;courseKind=15</code><br>
+<code>/courseList.do?method=submitCommonRenew&amp;classId=74391&amp;courseKind=15</code>
+但是照搬并没有用，忽然想起，有些选课是用GET，有些是用POST，说明部分API已经修改了。</p>
+<p>于是考虑和通识课同一时代的公选课。对比公选课<strong>查看</strong>和<strong>提交选课</strong>的链接：
+<code>/courseList.do?method=publicRenewCourseList&amp;campus=%E4%BB%99%E6%9E%97%E6%A0%A1%E5%8C%BA</code>
+<code>/courseList.do?method=submitPublicRenew&amp;classId=75533&amp;campus=%E4%BB%99%E6%9E%97%E6%A0%A1%E5%8C%BA</code></p>
+<p>然后对应通识课<strong>查看</strong>的连接：<br>
+<code>http://219.219.120.48/jiaowu/student/elective/courseList.do?method=discussRenewCourseList&amp;campus=%E4%BB%99%E6%9E%97%E6%A0%A1%E5%8C%BA</code>
+做相应修改得到：<br>
+<code>http://219.219.120.48/jiaowu/student/elective/courseList.do?method=submitDiscussRenew&amp;classId=75302&amp;campus=%E4%BB%99%E6%9E%97%E6%A0%A1%E5%8C%BA</code>
+直接复制到地址栏测试，提示“课程已满”，完美！</p>
+<p>不知道是不是所有人都有这种感觉，当凭自己的idea成功解决一个难题的时候，<strong>高举双手，闭上双眼，嘴里嘟囔着：我TM简直是个天才！</strong></p>
+<h4 id="上服务器">上服务器</h4>
+<p>由于我的笔记本需要经常开关移动，没法持续选课，于是想到了之前申请的Amazon AWS 弹性计算服务器。来吧Ubuntu，好久不见！</p>
+<p>在服务器上运行程序，又经历了这样的过程：</p>
+<ol>
+<li>直接运行，后来发现这样我就没法干别的了</li>
+<li>于是使用<code>screen</code>命令来在SSH下开多个terminal，方便切换，让程序后台运行，但看程序运行记录又很不方便</li>
+<li>于是搞log，并用<code>&gt;</code>进行output redirection，这样就可以</li>
+<li>随时ssh过去查看log. 但人总会更懒，甚至不向按<code>shift+G</code>翻到最后看最新log，</li>
+<li>于是使用<code>stdbuf -oL</code>来设置只输出一行，或者用<code>-tail</code>来看整个log的最后几行。但总不能一直看着它</li>
+<li>于是搞个异常处理，自动重启，<code>Supervisor</code>开机自启什么的</li>
+</ol>
+<p>战果是辉煌的，想要的选修课<strong>全部</strong>抢到，甚至多出来了几门。</p>
+<h3 id="有了服务器人就会变贪---定制新闻推送和天气预报">有了服务器人就会变贪 - 定制新闻推送和天气预报</h3>
+<p>申请微信企业号，配合服务器端爬虫，实现教务网新闻的自动爬取整理推送和与用户指令交互。</p>
+<p>这个比较长，设计微信开发、flask web server、nginx转发。下次更新。</p>
+<h3 id="决战新版教务系统">决战新版教务系统</h3>
+<p>教务处加了验证码，选课API也变了一些，再考虑到之前的代码风格好垃圾，决定重构之前的抢课类。这次代码要robust一点，增强成功率（不好意思说最后是手选的，尴尬）</p>
+<p>由于这次是提前准备，选课入口没有开，大部分API都是根据上学期的推测，写了不少<code>if</code>判断，越写越乱，于是干脆自己总结个API的思维导图。一开始还是用看request的老方法，搞着搞着发现了<code>onClick</code>函数里其实写了提交方法，搞着搞着又发现原来代码都已经在JavaScript函数里了，顺手看了一点点js的syntax，终于可以直接从源代码提取API了。</p>
+<p>细看源代码，又突然发现，原来入口不是没开，只是被<strong>注释</strong>掉了，哈哈哈哈哈哈哈哈哈哈哈哈！冷静，其实还是不能选课，因为后台是有时间过滤的，但至少能直接看到具体的API了。</p>
+<p>总结好API，又按照一些开源项目里学来的优雅做法，写了<strong>基类</strong>和继承，这样以后爬别的也能用。除此之外，为了优雅地处理<strong>优先级</strong>问题（优先选A课，然后选B,C,D，如果某门课已经选中，就继续刷优先级比它高的课，而低的不再管），翻了Python自带的<code>PriorityQueue</code>和<code>heapq</code>，发现都不行，于是自己写了一个<strong>优先队列</strong>，而且用到了generator的<code>yield</code>和<code>send</code>，再次感觉自己碉堡了，哈哈。</p>
+<p>最后就是找课程代码，由于看不到任何课程，没法从选课页面找，我就翻遍教务系统各个页面的html寻找突破口，终于在成绩单页面找到了——只要上过这门课，就会同时记录下当时的课程后台编号，这样只要找个上过想选的课的人就行了。</p>
+<p>问题基本解决，然而由于各种原因，找不到。那程序就没法提前部署，于是我又开始写监控提醒，这次连<code>winsound</code>库都用上了（用于在windows上用播放声音），还操起GoldWave亲自剪了个充满激情的铃声用于提醒。</p>
+<p>好了！我看了数据结构、写优雅代码、翻html源码，最后程序却出了意料之外的bug，我们用浏览器手动刷新抢的课。。。不过这个过程很有收获！代码以后还能复用！</p>
+<h3 id="辣鸡ets毁我青春---托福抢座记">辣鸡ETS毁我青春 - 托福抢座记</h3>
+<p>托福考试注册网站，不仅登录方式诡异、表单难以获取、错误提示多样、而且速度非常不稳定！无论多优美的idea，写到最后都是满屏的corner case和异常处理。</p>
+<p>下次单独写好了。</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/mysite/tags/python" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Python</a>
+   </li>
+  
+   <li class="list">
+     <a href="/mysite/tags/webscraping" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">webscraping</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bnliu" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      <div id="commento"></div>
+<script defer src="https://cdn.commento.io/js/commento.js"></script>
+
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Table of Contents</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#大二下">大二下</a></li>
+    <li><a href="#大三上">大三上</a></li>
+    <li><a href="#大三下">大三下</a></li>
+    <li><a href="#大三暑期实习">大三暑期实习</a></li>
+    <li><a href="#流水的网站铁打的爬虫">流水的网站，铁打的爬虫</a>
+      <ul>
+        <li><a href="#爬虫101---规则网址图片下载">爬虫101 - 规则网址图片下载</a></li>
+        <li><a href="#初识post-method---校园网自动登录">初识POST METHOD - 校园网自动登录</a></li>
+        <li><a href="#漂亮的肥皂---html解析">漂亮的肥皂 - HTML解析</a></li>
+        <li><a href="#再复杂一点---成绩查询-和-逸夫楼自习教室课表">再复杂一点 - 成绩查询 和 逸夫楼自习教室课表</a></li>
+        <li><a href="#来吧验证码---gre抢座">来吧验证码！ - GRE抢座</a></li>
+        <li><a href="#搞个amazon的服务器吧---724服务端抢课">搞个Amazon的服务器吧 - 7*24服务端抢课</a></li>
+        <li><a href="#有了服务器人就会变贪---定制新闻推送和天气预报">有了服务器人就会变贪 - 定制新闻推送和天气预报</a></li>
+        <li><a href="#决战新版教务系统">决战新版教务系统</a></li>
+        <li><a href="#辣鸡ets毁我青春---托福抢座记">辣鸡ETS毁我青春 - 托福抢座记</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+
+<div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+  <br><br><br><br>
+  <a href="https://brillliantz.github.io/mysite/coding/my_python_and_webscraping_experience/">
+    Link of This Article
+  </a>
+</div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/mysite/coding/wechat_enterprise_api/">用企业微信API开发微信机器人</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://brillliantz.github.io/mysite/" >
+    &copy;  Bingnan's Blog 2021 
+  </a>
+    <div>
+
+
+
+
+
+
+
+<a href="https://www.linkedin.com/in/bingnliu" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/brillliantz" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/mysite/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
